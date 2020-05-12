@@ -29,7 +29,6 @@ body {
 }
 
 .hlabel1,
-.plabel1,
 .hlabel2,
 .plabel2 {
     margin: 10px 0;
@@ -46,6 +45,28 @@ body {
 
 .label1 {
     grid-area: label1;
+}
+
+.plabel1 {
+    width: 100%;
+    height: 70%;
+}
+
+.plabel1 table{
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.plabel1 th {
+    background-color: yellowgreen;
+    border: 2px solid;
+}
+
+.plabel1 td {
+    text-align: center;
+    border: 2px solid;
 }
 
 .datos input {
@@ -73,7 +94,6 @@ body {
 
 @media (max-width: 750px){
     .contenedor {
-       
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
