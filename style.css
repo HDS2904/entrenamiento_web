@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+        "header header header"
+        "label1 label1 label2";
+}
+
+.encabezado,
+.label1,
+.label2 {
+    background-color: honeydew;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hlabel1,
+.plabel1,
+.hlabel2,
+.plabel2 {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.encabezado {
+    grid-area: header;
+    background-color: lightsalmon;
+    text-align: center;
+}
+
+.label1 {
+    grid-area: label1;
+}
+
+.datos input {
+    font-size: 18px;
+}
+
+.label2 {
+    grid-area: label2; 
+}
+
+
+.plabel2 p {
+    margin: 15px 0;
+}
+
+.plabel2 .botones {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botones input {
+    padding: 4px 10px;
+}
+
+
+@media (max-width: 750px){
+    .contenedor {
+       
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "header"
+            "label1"
+            "label2";
+    }
+}
