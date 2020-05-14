@@ -4,19 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+     <!-- fond awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
     
     <div class="contenedor">
         <header class="encabezado">
-            <h2>TITULO</h2>
+            <div class="encabezado-tittle">
+                <h2>PRACTICANDO EN SCSS Y SUS NOVEDADES</h2>
+            </div>
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">Escuelas</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">Cursos</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">Intranet</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">Galeria</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">Ayuda</a>
+                    </li>
+                </ul>
+                <button class="menu-btn">
+                    <a href="#">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </button>
+            </nav>
         </header>
 
-        <section class="label1">
-            <h2 class="hlabel1">TITULO DE LA TABLA</h2>
-            <div class="plabel1">
-                <table >
+        <div class="section-one">
+            <div class="section-one-tittle">
+                <h2>TITULO DE LA TABLA</h2>
+            </div>
+            <div class="secction-one-table">
+                <table>
                     <tr>
                         <th>datos</th>
                         <th>Integrante 1</th>
@@ -51,12 +84,14 @@
                     </tr>
                 </table>
             </div>
-        </section>
+        </div>
         
-        <section class="label2">
-            <h2 class="hlabel2">TITULO DEL FORMULARIO</h2>
-            <form class="plabel2">
-                <div class="datos">
+        <div class="section-two">
+            <div class="section-two-tittle">
+                <h2>TITULO DEL FORMULARIO</h2>
+            </div>
+            <form class="section-two-form">
+                <div class="input-datos">
                     <p>
                         <input type="text" placeholder="Nombre">
                     </p>
@@ -67,7 +102,7 @@
                         <input type="number" placeholder="NumeroCelular">
                     </p>
                 </div>
-                <div class="botones">
+                <div class="button-datos">
                     <p class="boton1">
                         <input type="submit" value="Enviar">
                     </p>
@@ -77,9 +112,10 @@
                 </div>
             </form>
         
-        </section>
+        </div>
     </div>
     
+    <script src="/js/main.js"></script>
 
 </body>
 </html>
