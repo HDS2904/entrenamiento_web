@@ -41,19 +41,18 @@ a {
     }
 
     header {
-        @include mixins.bordeado(rgb(54, 131, 57));
         grid-area: header;
         padding: 10px 0 0 0;
     }
     
     .section-one {
         grid-area: label1;
-        @include mixins.bordeado(#ff6347);  
+        @include mixins.bordeado();  
     }
     
     .section-two {
         grid-area: label2;
-        @include mixins.bordeado(#ff6347);
+        @include mixins.bordeado();
     }
 }
 
@@ -105,7 +104,7 @@ a {
     font-size: 20px;
 
     &:hover {
-        background-color: saddlebrown;
+        background-color: grey;
     }
 
     @media screen and(max-width: $maxScale) {
@@ -116,12 +115,11 @@ a {
 
 .section-one-tittle,
 .section-two-tittle {
-    @include mixins.bordeado(rgb(25, 9, 165)); 
     text-align: center;
 }
 
 .secction-one-table {
-    @include mixins.bordeado(#ffffff);
+    @include mixins.bordeado();
     margin-top: 12px;
     height: 78%;
     padding: 0;
@@ -148,7 +146,6 @@ a {
 }
 
 .section-two-form {
-    @include mixins.bordeado(#ffffff);
     margin-top: 12px;
 
     .input-datos {

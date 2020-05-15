@@ -1,16 +1,19 @@
 @mixin button {
-    display: inline-block;
-    text-decoration: none;
-    padding: .5em 1em;
-    border-radius: 3px;
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-weight: bold;
+    background-color: grey;
+    font-size: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
     &:hover {
-        background-color: rgb(72, 219, 72);
+        background-color: rgb(130, 236, 130);
     }
 }
 
-@mixin bordeado($paramsColor) {
+@mixin bordeado() {
     border: 1px solid;
     padding: 10px;
     border-radius: 4px;
-    background-color: $paramsColor;
 }

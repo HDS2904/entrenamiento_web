@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: grey;
+  font-family: sans-serif, Arial, Helvetica;
 }
 
 .navbar .navbar-list, .navbar {
@@ -42,10 +42,6 @@ a {
   }
 }
 .contenedor header {
-  border: 1px solid;
-  padding: 10px;
-  border-radius: 4px;
-  background-color: #368339;
   grid-area: header;
   padding: 10px 0 0 0;
 }
@@ -54,14 +50,12 @@ a {
   border: 1px solid;
   padding: 10px;
   border-radius: 4px;
-  background-color: #ff6347;
 }
 .contenedor .section-two {
   grid-area: label2;
   border: 1px solid;
   padding: 10px;
   border-radius: 4px;
-  background-color: #ff6347;
 }
 
 .encabezado-tittle {
@@ -110,7 +104,7 @@ a {
   font-size: 20px;
 }
 .navbar-item:hover {
-  background-color: saddlebrown;
+  background-color: grey;
 }
 @media screen and (max-width: 720px) {
   .navbar-item {
@@ -121,10 +115,6 @@ a {
 
 .section-one-tittle,
 .section-two-tittle {
-  border: 1px solid;
-  padding: 10px;
-  border-radius: 4px;
-  background-color: #1909a5;
   text-align: center;
 }
 
@@ -132,7 +122,6 @@ a {
   border: 1px solid;
   padding: 10px;
   border-radius: 4px;
-  background-color: #ffffff;
   margin-top: 12px;
   height: 78%;
   padding: 0;
@@ -155,10 +144,6 @@ a {
 }
 
 .section-two-form {
-  border: 1px solid;
-  padding: 10px;
-  border-radius: 4px;
-  background-color: #ffffff;
   margin-top: 12px;
 }
 .section-two-form .input-datos {
@@ -178,14 +163,18 @@ a {
 
 .boton1 input,
 .boton2 input {
-  display: inline-block;
-  text-decoration: none;
-  padding: 0.5em 1em;
-  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-weight: bold;
+  background-color: grey;
+  font-size: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .boton1 input:hover,
 .boton2 input:hover {
-  background-color: #48db48;
+  background-color: #82ec82;
 }
 
 @media screen and (max-width: 720px) {
