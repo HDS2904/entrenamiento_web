@@ -1,0 +1,44 @@
+1. ¿Qué es “ECMA”?
+	Proviene del acrónimo “European Computer Manufacturers Association (ECMA)” siendo
+	un organismo de normalización del sector TIC en Europa en la actualidad
+2. ¿Cuántos versiones de ECMASCRIPT existe?
+	1- ECMAScript 1 (1997)
+	2- ECMAScript 2 (1998)
+	3- ECMAScript 3 (1999)
+	4- ECMAScript 5 (2009)
+	5- ECMAScript 5.1 (2011)
+	6- ECMAScript 6 2015
+	7- ECMAScript 7 2016
+	8- ECMAScript 8 2017
+	9- ECMAScript 9 2018
+	10- ECMAScript 10 2019
+3. ¿Por qué pusieron ECMASCRIP como nombre?
+	conociendo el aconimo ECMA, se asigno este acronimo en honor a la gran empresa
+	que fue una organización internacional donde se creo comité de estandarización 
+	de javascript de la época de 1997 y desde la fecha los standares de javascript 
+	se denominan como ECMAScript de acuedo avanza el proyecto.
+4. ¿Cuál de todos los ECMASCRIPT es mejor?
+	Segun tengo entendido es ES5 debido a que tiene soporte en todos los navegadores a 
+	diferencia del ES6 que algunos no muy populares no es compatible
+5. ¿Cuántos tipos de palabras reservadas hay en ECMASCRIPT?
+	break, case, catch, const, continue, debugger, do, else, finally, for, if, 
+	in, instanceof, let, new, return, switch, while, this, throw, var, void, con, 
+	typeof, try, default, function, async, await
+6. ¿Qué es el asincronismo (ayax)?
+	Son operaciones que se resuelven/ejecutan fuera de la aplicaión que se resuelven
+	en el presente o futuro (despues de un tiempo)
+7. ¿Qué es un “Iterador”?
+	es una propiedad del objeto que nos proporciona un mecanismo para recorrerlo, devolviendo
+	un valor al terminar
+8. ¿Qué son los “Generadores” ?
+	son funciones que podemos pausar o detener y accedes posteriormente a la funcion
+	que mantendrá su contexto a la dejada anteriormente
+9- ¿Qué son las "promesas"?
+	Es un objeto que es resultado de una operación asincrona que puede ser la terminación de 
+	este o su fracaso
+10. ¿Qué es la “Inmutabilidad”?
+	un valor que no se puede cambiar luego de ser definido, se puede modificar pero debe ser 
+	en un objeto diferente.
+11. ¿Qué son los “Prototipos”?
+	son objetos que pueden tener propiedades (funciones y métodos), ademas pueden ser utilizados 
+	por otros objetos para heredar sus propiedades
