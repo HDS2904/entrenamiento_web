@@ -1,0 +1,38 @@
+1- ¿Qué es una API?
+	"interfaz de programación de aplicaciones", dicho de otra manera es una interface
+	que permite la comunicación de dos aplicaciones y compartan datos entre ellas. 
+
+2- Peticiones de una API
+	GET: solicitar datos
+	POST: Crear nuevos recursos
+	PUT: actualización total
+	DELETE: borrar datos
+	PATCH: actualización parcial
+	OPTIONS: mostrar las obciones y requerimientos
+
+3- ¿Qué es una API REST?
+	Entendido lo anterior, el API REST es una API remota que nos permite usar servicios
+	 web de terceros en nuestra aplicación, extendiendo nuestra funcionabilidad de +
+	manera segura y restringida por protocolos.
+
+4- Diferencia entre API REST
+	API
+	- es una terminacion general
+	- usa cualquier estilo de comunicación
+	- no requiere de una red para funcionar
+	- no esta limitada en sus operaciones
+	- EJM: AYAX
+	API REST 
+	- es un tipo de API
+	- es un servicio web de estilo REST
+	- requiere de una red para conectar dos maquinas
+	- contienen una serie de protocolos que la limitan
+	- EJM: solicitud HTTP a la API de Facebook
+
+5- ¿Qué hace un backend?
+	Tomando la referencia del programador en este rubro, se dice que es el encargado 
+	de que la aplicacion funcione de manera exitosa desde un escenario oculto, pues 
+	esto no lo saben los usuarios por seguridad del propietario.
+	Por este lado se hacen el manejo de servidores, valdaciones, base de datos, etc
+	
+	
